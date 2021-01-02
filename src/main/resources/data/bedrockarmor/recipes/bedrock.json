@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"OC",
+		"CO"
+	],
+	"key": {
+		"O": {
+			"item": "minecraft:obsidian"
+		},
+		"C": {
+			"item": "minecraft:cobblestone"
+		}
+	},
+	"result": {
+		"item": "minecraft:bedrock"
+	}
+}

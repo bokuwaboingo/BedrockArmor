@@ -1,0 +1,11 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="All rights reserved"
+
+[[mods]]
+modId="bedrockarmor"
+version="2.0.0"
+displayName="Bedrock Armor"
+credits="Thanks to TurtyWurty for all the tutorials"
+authors="Justin Pridgen (BokuWaBoingo)"
+description="A remaster of my first ever mod. Bedrock Armor, nothing else."
