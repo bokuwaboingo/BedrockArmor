@@ -2,16 +2,17 @@ package com.bokuwaboingo.bedrockarmor.common.items;
 
 import com.bokuwaboingo.bedrockarmor.BedrockArmor;
 import com.bokuwaboingo.bedrockarmor.BedrockArmor.BedrockArmorItemGroup;
-import com.bokuwaboingo.bedrockarmor.core.enums.BedrockItemTier;
+import com.bokuwaboingo.bedrockarmor.core.enums.BedrockArmorMaterial;
 
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.util.NonNullList;
 
-public class BedrockSwordItem extends SwordItem
+public class BedrockChestplateItem extends ArmorItem
 {
-	public BedrockSwordItem()
+	public BedrockChestplateItem()
 	{
-		super(BedrockItemTier.BEDROCK, 3, -2.4f, new Item.Properties().group(BedrockArmorItemGroup.instance));
+		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.CHEST, new Item.Properties().group(BedrockArmorItemGroup.instance));
 	}
 	
 	@Override
@@ -21,7 +22,9 @@ public class BedrockSwordItem extends SwordItem
 		{
 			ItemStack stack = new ItemStack(this);
 			
-			BedrockArmor.enchant("sword", stack);
+			BedrockArmor.enchant("chestplate", stack);
+			
+			BedrockArmor.attribute("chestplate", stack);
 			
 			items.add(stack);
 		}

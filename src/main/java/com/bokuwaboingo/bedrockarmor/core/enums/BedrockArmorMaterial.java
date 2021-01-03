@@ -42,37 +42,37 @@ public enum BedrockArmorMaterial implements IArmorMaterial
 	@Override
 	public String getName()
 	{
-	    return this.name;
+		return this.name;
 	}
 
 	@Override
 	public int getDurability(EquipmentSlotType slotIn)
 	{
-	    return MAX_DAMAGE_ARRAY[slotIn.getIndex()] * this.maxDamageFactor;
+		return MAX_DAMAGE_ARRAY[slotIn.getIndex()] * this.maxDamageFactor;
 	}
 
 	@Override
 	public int getDamageReductionAmount(EquipmentSlotType slotIn)
 	{
-	    return this.damageReductionAmountArray[slotIn.getIndex()];
+		return this.damageReductionAmountArray[slotIn.getIndex()];
 	}
 
 	@Override
 	public int getEnchantability()
 	{
-	    return this.enchantability;
+		return this.enchantability;
 	}
 
 	@Override
 	public SoundEvent getSoundEvent()
 	{
-	    return this.soundEvent;
+		return this.soundEvent;
 	}
 	
 	@Override
 	public float getToughness()
 	{
-	    return this.toughness;
+		return this.toughness;
 	}
 	
 	@Override
@@ -84,6 +84,6 @@ public enum BedrockArmorMaterial implements IArmorMaterial
 	@Override
 	public Ingredient getRepairMaterial()
 	{
-	    return this.repairMaterial.getValue();
+		return this.repairMaterial.getValue();
 	}
 }

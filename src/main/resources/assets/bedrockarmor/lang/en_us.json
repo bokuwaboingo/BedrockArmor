@@ -1,4 +1,12 @@
 {
 	"item.bedrockarmor.bedrock_sword": "Bedrock Sword",
+	"item.bedrockarmor.bedrock_pickaxe": "Bedrock Pickaxe",
+	"item.bedrockarmor.bedrock_axe": "Bedrock Axe",
+	"item.bedrockarmor.bedrock_shovel": "Bedrock Shovel",
+	"item.bedrockarmor.bedrock_hoe": "Bedrock Hoe",
+	"item.bedrockarmor.bedrock_helmet": "Bedrock Helmet",
+	"item.bedrockarmor.bedrock_chestplate": "Bedrock Chestplate",
+	"item.bedrockarmor.bedrock_leggings": "Bedrock Leggings",
+	"item.bedrockarmor.bedrock_boots": "Bedrock Boots",
 	"itemGroup.bedrockarmor": "Bedrock Armor"
 }

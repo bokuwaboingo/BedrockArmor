@@ -7,11 +7,11 @@ import com.bokuwaboingo.bedrockarmor.core.enums.BedrockItemTier;
 import net.minecraft.item.*;
 import net.minecraft.util.NonNullList;
 
-public class BedrockSwordItem extends SwordItem
+public class BedrockShovelItem extends ShovelItem
 {
-	public BedrockSwordItem()
+	public BedrockShovelItem()
 	{
-		super(BedrockItemTier.BEDROCK, 3, -2.4f, new Item.Properties().group(BedrockArmorItemGroup.instance));
+		super(BedrockItemTier.BEDROCK, 1.5f, -3f, new Item.Properties().group(BedrockArmorItemGroup.instance));
 	}
 	
 	@Override
@@ -21,7 +21,7 @@ public class BedrockSwordItem extends SwordItem
 		{
 			ItemStack stack = new ItemStack(this);
 			
-			BedrockArmor.enchant("sword", stack);
+			BedrockArmor.enchant("shovel", stack);
 			
 			items.add(stack);
 		}

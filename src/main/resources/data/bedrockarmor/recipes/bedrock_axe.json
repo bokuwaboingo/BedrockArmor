@@ -1,0 +1,20 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"BB",
+		"SB",
+		"S "
+	],
+	"key": {
+		"B": {
+			"item": "minecraft:bedrock"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"nbt": "{Enchantments:[{id:efficiency,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}",
+		"item": "bedrockarmor:bedrock_axe"
+	}
+}
