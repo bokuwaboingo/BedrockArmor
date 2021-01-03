@@ -1,0 +1,19 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"BBB",
+		"BDB",
+		"BBB"
+	],
+	"key": {
+		"B": {
+			"item": "minecraft:bedrock"
+		},
+		"D": {
+			"item": "minecraft:dropper"
+		}
+	},
+	"result": {
+		"item": "bedrockarmor:bedrock_randomizer_block"
+	}
+}

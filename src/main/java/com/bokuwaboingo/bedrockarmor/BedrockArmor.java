@@ -104,6 +104,7 @@ public class BedrockArmor
 				stack.addEnchantment(Enchantments.FEATHER_FALLING, 4);
 				stack.addEnchantment(Enchantments.THORNS, 3);
 				stack.addEnchantment(Enchantments.DEPTH_STRIDER, 3);
+				stack.addEnchantment(Enchantments.SOUL_SPEED, 3);;
 				stack.addEnchantment(Enchantments.MENDING, 1);
 				break;
 		}

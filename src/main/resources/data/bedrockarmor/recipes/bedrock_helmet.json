@@ -10,7 +10,7 @@
 		}
 	},
 	"result": {
-		"nbt": "AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,4276,122428,-8552],Slot:head,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,4276,122428,-8552],Slot:head,Name:\"generic.attack_damage\"}],Enchantments:[{id:aqua_affinity,lvl:1},{id:respiration,lvl:3},{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:mending,lvl:1}]}",
+		"nbt": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,4276,122428,-8552],Slot:head,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,4276,122428,-8552],Slot:head,Name:\"generic.attack_damage\"}],Enchantments:[{id:aqua_affinity,lvl:1},{id:respiration,lvl:3},{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:mending,lvl:1}]}",
 		"item": "bedrockarmor:bedrock_helmet"
 	}
 }

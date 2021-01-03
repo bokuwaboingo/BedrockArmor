@@ -1,0 +1,100 @@
+{
+	"type": "minecraft:block",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:sharpness,lvl:5},{id:knockback,lvl:2},{id:fire_aspect,lvl:2},{id:looting,lvl:3},{id:sweeping,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:efficiency,lvl:5},{id:fortune,lvl:3},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_axe",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:efficiency,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_shovel",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:efficiency,lvl:5},{id:silk_touch,lvl:1},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_hoe",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Enchantments:[{id:efficiency,lvl:5},{id:unbreaking,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_helmet",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,4276,122428,-8552],Slot:head,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,4276,122428,-8552],Slot:head,Name:\"generic.attack_damage\"}],Enchantments:[{id:aqua_affinity,lvl:1},{id:respiration,lvl:3},{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,10452,122733,-20904],Slot:chest,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,10452,122733,-20904],Slot:chest,Name:\"generic.attack_damage\"}],Enchantments:[{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_leggings",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,2009,122824,-4018],Slot:legs,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,2009,122824,-4018],Slot:legs,Name:\"generic.attack_damage\"}],Enchantments:[{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "bedrockarmor:bedrock_boots",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,1907,122945,-3814],Slot:feet,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,1907,122945,-3814],Slot:feet,Name:\"generic.attack_damage\"}],Enchantments:[{id:feather_falling,lvl:4},{id:depth_strider,lvl:3},{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:soul_speed,lvl:3},{id:mending,lvl:1}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
