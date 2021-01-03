@@ -1,0 +1,124 @@
+{
+	"parent": "bedrockarmor:story/obtain_bedrock",
+	"display": {
+		"icon": {
+			"item": "bedrockarmor:bedrock_sword",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "advancements.story.obtain_bedrock_item.title"
+		},
+		"description": {
+			"translate": "advancements.story.obtain_bedrock_item.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bedrock_helmet": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_helmet"
+					}
+				]
+			}
+		},
+		"bedrock_chestplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_chestplate"
+					}
+				]
+			}
+		},
+		"bedrock_leggings": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_leggings"
+					}
+				]
+			}
+		},
+		"bedrock_boots": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_boots"
+					}
+				]
+			}
+		},
+		"bedrock_sword": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_sword"
+					}
+				]
+			}
+		},
+		"bedrock_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_pickaxe"
+					}
+				]
+			}
+		},
+		"bedrock_axe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_axe"
+					}
+				]
+			}
+		},
+		"bedrock_shovel": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_shovel"
+					}
+				]
+			}
+		},
+		"bedrock_hoe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_hoe"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"bedrock_helmet",
+			"bedrock_chestplate",
+			"bedrock_leggings",
+			"bedrock_boots",
+			"bedrock_sword",
+			"bedrock_pickaxe",
+			"bedrock_axe",
+			"bedrock_shovel",
+			"bedrock_hoe"
+		]
+	]
+}

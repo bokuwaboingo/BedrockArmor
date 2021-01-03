@@ -9,5 +9,13 @@
 	"item.bedrockarmor.bedrock_leggings": "Bedrock Leggings",
 	"item.bedrockarmor.bedrock_boots": "Bedrock Boots",
 	"block.bedrockarmor.bedrock_randomizer_block": "Bedrock Randomizer Block",
+	"advancements.story.obtain_bedrock.title": "That's Impossible...",
+	"advancements.story.obtain_bedrock.description": "Obtain Bedrock... Somehow...",
+	"advancements.story.obtain_bedrock_item.title": "Unbreakable",
+	"advancements.story.obtain_bedrock_item.description": "Make a Bedrock tool",
+	"advancements.story.bedrock_armor.title": "Cover Me in Bedrock",
+	"advancements.story.bedrock_armor.description": "Obtain a full set of Bedrock Armor",
+	"advancements.story.obtain_bedrock_hoe.title": "Why?",
+	"advancements.story.obtain_bedrock_hoe.description": "Why a Bedrock Hoe?",
 	"itemGroup.bedrockarmor": "Bedrock Armor"
 }

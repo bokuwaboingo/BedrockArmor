@@ -1,0 +1,45 @@
+{
+	"parent": "bedrockarmor:story/obtain_bedrock",
+	"display": {
+		"icon": {
+			"item": "bedrockarmor:bedrock_chestplate",
+			"nbt": "{Enchantments:[{}]}"
+		},
+		"title": {
+			"translate": "advancements.story.bedrock_armor.title"
+		},
+		"description": {
+			"translate": "advancements.story.bedrock_armor.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bedrock_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bedrockarmor:bedrock_helmet"
+					},
+					{
+						"item": "bedrockarmor:bedrock_chestplate"
+					},
+					{
+						"item": "bedrockarmor:bedrock_leggings"
+					},
+					{
+						"item": "bedrockarmor:bedrock_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"bedrock_armor"
+		]
+	]
+}

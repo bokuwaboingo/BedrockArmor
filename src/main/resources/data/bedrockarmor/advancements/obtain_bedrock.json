@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:story/form_obsidian",
+	"display": {
+		"icon": {
+			"item": "minecraft:bedrock"
+		},
+		"title": {
+			"translate": "advancements.story.obtain_bedrock.title"
+		},
+		"description": {
+			"translate": "advancements.story.obtain_bedrock.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bedrock": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:bedrock"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"bedrock"
+		]
+	]
+}
