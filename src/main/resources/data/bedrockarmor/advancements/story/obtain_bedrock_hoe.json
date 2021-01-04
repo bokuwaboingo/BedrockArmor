@@ -2,7 +2,7 @@
 	"parent": "bedrockarmor:story/obtain_bedrock_item",
 	"display": {
 		"icon": {
-			"item": "minecraft:bedrock_hoe",
+			"item": "bedrockarmor:bedrock_hoe",
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
@@ -22,7 +22,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "minecraft:bedrock_hoe"
+						"item": "bedrockarmor:bedrock_hoe"
 					}
 				]
 			}
