@@ -10,7 +10,7 @@
 		}
 	},
 	"result": {
-		"nbt": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,1907,122945,-3814],Slot:feet,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,1907,122945,-3814],Slot:feet,Name:\"generic.attack_damage\"}],Enchantments:[{id:feather_falling,lvl:4},{id:depth_strider,lvl:3},{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:soul_speed,lvl:3},{id:mending,lvl:1}]}",
+		"nbt": "{Enchantments:[{id:feather_falling,lvl:4},{id:mending,lvl:1},{id:protection,lvl:4},{id:soul_speed,lvl:1},{id:thorns,lvl:3},{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-12104,31557,21331,-63114],Slot:feet,Name:\"generic.armor\"},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-12104,31557,21331,-63114],Slot:feet,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-12104,31557,21331,-63114],Slot:feet,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12104,31557,21331,-63114],Slot:feet,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12104,31557,21331,-63114],Slot:feet,Name:\"generic.attack_damage\"}]}",
 		"item": "bedrockarmor:bedrock_boots"
 	}
 }

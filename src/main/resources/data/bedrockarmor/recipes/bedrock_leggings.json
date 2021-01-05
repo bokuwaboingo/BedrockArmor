@@ -11,7 +11,7 @@
 		}
 	},
 	"result": {
-		"nbt": "{AttributeModifiers:[{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12103,2009,122824,-4018],Slot:legs,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12103,2009,122824,-4018],Slot:legs,Name:\"generic.attack_damage\"}],Enchantments:[{id:protection,lvl:4},{id:unbreaking,lvl:3},{id:thorns,lvl:3},{id:mending,lvl:1}]}",
+		"nbt": "{Enchantments:[{id:mending,lvl:1},{id:protection,lvl:4},{id:thorns,lvl:3},{id:unbreaking,lvl:3}],AttributeModifiers:[{AttributeName:\"generic.armor\",Amount:6,Operation:0,UUID:[I;-12104,30593,21317,-61186],Slot:legs,Name:\"generic.armor\"},{AttributeName:\"generic.armor_toughness\",Amount:3,Operation:0,UUID:[I;-12104,30593,21317,-61186],Slot:legs,Name:\"generic.armor_toughness\"},{AttributeName:\"generic.knockback_resistance\",Amount:0.1,Operation:0,UUID:[I;-12104,30593,21317,-61186],Slot:legs,Name:\"generic.knockback_resistance\"},{AttributeName:\"generic.max_health\",Amount:10,Operation:0,UUID:[I;-12104,30593,21317,-61186],Slot:legs,Name:\"generic.max_health\"},{AttributeName:\"generic.attack_damage\",Amount:5,Operation:0,UUID:[I;-12104,30593,21317,-61186],Slot:legs,Name:\"generic.attack_damage\"}]}",
 		"item": "bedrockarmor:bedrock_leggings"
 	}
 }

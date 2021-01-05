@@ -104,7 +104,7 @@ public class BedrockArmor
 				stack.addEnchantment(Enchantments.FEATHER_FALLING, 4);
 				stack.addEnchantment(Enchantments.THORNS, 3);
 				stack.addEnchantment(Enchantments.DEPTH_STRIDER, 3);
-				stack.addEnchantment(Enchantments.SOUL_SPEED, 3);;
+				stack.addEnchantment(Enchantments.SOUL_SPEED, 3);
 				stack.addEnchantment(Enchantments.MENDING, 1);
 				break;
 		}
@@ -115,20 +115,32 @@ public class BedrockArmor
 		switch (type.toLowerCase())
 		{
 			case "helmet":
-				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("generic.maxHealth", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.HEAD);
-	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("generic.attackDamage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.HEAD);
+				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.HEAD);
+	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("Attack Damage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.HEAD);
+	            stack.addAttributeModifier(Attributes.ARMOR, new AttributeModifier("Armor", 3, AttributeModifier.Operation.ADDITION), EquipmentSlotType.HEAD);
+	            stack.addAttributeModifier(Attributes.ARMOR_TOUGHNESS, new AttributeModifier("Armor Toughness", 3, AttributeModifier.Operation.ADDITION), EquipmentSlotType.HEAD);
+	            stack.addAttributeModifier(Attributes.KNOCKBACK_RESISTANCE, new AttributeModifier("Knockback Resistance", 0.1, AttributeModifier.Operation.ADDITION), EquipmentSlotType.HEAD);
 				break;
 			case "chestplate":
-				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("generic.maxHealth", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.CHEST);
-	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("generic.attackDamage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.CHEST);
+				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.CHEST);
+	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("Attack Damage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.CHEST);
+	            stack.addAttributeModifier(Attributes.ARMOR, new AttributeModifier("Armor", 8, AttributeModifier.Operation.ADDITION), EquipmentSlotType.CHEST);
+	            stack.addAttributeModifier(Attributes.ARMOR_TOUGHNESS, new AttributeModifier("Armor Toughness", 3, AttributeModifier.Operation.ADDITION), EquipmentSlotType.CHEST);
+	            stack.addAttributeModifier(Attributes.KNOCKBACK_RESISTANCE, new AttributeModifier("Knockback Resistance", 0.1, AttributeModifier.Operation.ADDITION), EquipmentSlotType.CHEST);
 				break;
 			case "leggings":
-				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("generic.maxHealth", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.LEGS);
-	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("generic.attackDamage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.LEGS);
+				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.LEGS);
+	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("Attack Damage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.LEGS);
+	            stack.addAttributeModifier(Attributes.ARMOR, new AttributeModifier("Armor", 6, AttributeModifier.Operation.ADDITION), EquipmentSlotType.LEGS);
+	            stack.addAttributeModifier(Attributes.ARMOR_TOUGHNESS, new AttributeModifier("Armor Toughness", 3, AttributeModifier.Operation.ADDITION), EquipmentSlotType.LEGS);
+	            stack.addAttributeModifier(Attributes.KNOCKBACK_RESISTANCE, new AttributeModifier("Knockback Resistance", 0.1, AttributeModifier.Operation.ADDITION), EquipmentSlotType.LEGS);
 				break;
 			case "boots":
-				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("generic.maxHealth", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.FEET);
-	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("generic.attackDamage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.FEET);
+				stack.addAttributeModifier(Attributes.MAX_HEALTH, new AttributeModifier("Max Health", 10, AttributeModifier.Operation.ADDITION), EquipmentSlotType.FEET);
+	            stack.addAttributeModifier(Attributes.ATTACK_DAMAGE, new AttributeModifier("Attack Damage", 5, AttributeModifier.Operation.ADDITION), EquipmentSlotType.FEET);
+	            stack.addAttributeModifier(Attributes.ARMOR, new AttributeModifier("Armor", 3, AttributeModifier.Operation.ADDITION), EquipmentSlotType.FEET);
+	            stack.addAttributeModifier(Attributes.ARMOR_TOUGHNESS, new AttributeModifier("Armor Toughness", 3, AttributeModifier.Operation.ADDITION), EquipmentSlotType.FEET);
+	            stack.addAttributeModifier(Attributes.KNOCKBACK_RESISTANCE, new AttributeModifier("Knockback Resistance", 0.1, AttributeModifier.Operation.ADDITION), EquipmentSlotType.FEET);
 				break;
 		}
 	}
