@@ -15,7 +15,7 @@ public class BedrockChestplateItem extends ArmorItem
 {
 	public BedrockChestplateItem()
 	{
-		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.CHEST, new Item.Properties().group(BedrockArmorItemGroup.instance));
+		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.CHEST, new Item.Properties().group(BedrockArmorItemGroup.instance).isImmuneToFire());
 		
 		Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 		builder.put(Attributes.ARMOR, new AttributeModifier("Armor", 8, AttributeModifier.Operation.ADDITION));

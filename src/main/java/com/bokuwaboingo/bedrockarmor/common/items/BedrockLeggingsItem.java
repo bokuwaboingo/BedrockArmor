@@ -15,7 +15,7 @@ public class BedrockLeggingsItem extends ArmorItem
 {
 	public BedrockLeggingsItem()
 	{
-		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.LEGS, new Item.Properties().group(BedrockArmorItemGroup.instance));
+		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.LEGS, new Item.Properties().group(BedrockArmorItemGroup.instance).isImmuneToFire());
 		
 		Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 		builder.put(Attributes.ARMOR, new AttributeModifier("Armor", (double)6, AttributeModifier.Operation.ADDITION));

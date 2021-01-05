@@ -15,7 +15,7 @@ public class BedrockBootsItem extends ArmorItem
 {
 	public BedrockBootsItem()
 	{
-		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.FEET, new Item.Properties().group(BedrockArmorItemGroup.instance));
+		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.FEET, new Item.Properties().group(BedrockArmorItemGroup.instance).isImmuneToFire());
 		
 		Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 		builder.put(Attributes.ARMOR, new AttributeModifier("Armor", (double)3, AttributeModifier.Operation.ADDITION));

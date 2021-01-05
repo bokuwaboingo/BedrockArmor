@@ -15,7 +15,7 @@ public class BedrockHelmetItem extends ArmorItem
 {
 	public BedrockHelmetItem()
 	{
-		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.HEAD, new Item.Properties().group(BedrockArmorItemGroup.instance));
+		super(BedrockArmorMaterial.BEDROCK, EquipmentSlotType.HEAD, new Item.Properties().group(BedrockArmorItemGroup.instance).isImmuneToFire());
 		
 		Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 		builder.put(Attributes.ARMOR, new AttributeModifier("Armor", 3, AttributeModifier.Operation.ADDITION));
